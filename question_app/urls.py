@@ -23,7 +23,6 @@ urlpatterns = [
     path('question/', QuestionPage.as_view()),
     path('question/<int:pk>', QuestionPage.as_view()),
 
-
     path('answer/<int:pk>', AnswerPage.as_view()),
     path('answer/', AnswerPage.as_view()),
     path('answer-user/<int:pk>', AnswerUserPage.as_view()),

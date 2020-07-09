@@ -156,7 +156,6 @@ class AnswerPage(APIView):
                 return Response({'ststus': 'Error'})
 
 
-
 class AnswerUserPage(APIView):
     # Страница включающая опросы и их вопросы и ответы 
     # для конкретного пользователя 
